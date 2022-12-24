@@ -13,7 +13,7 @@ import servicio.EmpresaServiceImpl;
 
 /**
  *
- * @author Jose
+ * @author karlylvg
  */
 public class DepartamentoControl {
 
