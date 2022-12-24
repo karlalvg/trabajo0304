@@ -10,7 +10,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Jose
+ * @author karlylvg
  */
 public class VentanaEmpresa extends javax.swing.JFrame {
 
