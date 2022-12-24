@@ -10,7 +10,7 @@ import modelo.Empleado;
 
 /**
  *
- * @author Jose
+ * @author karlylvg
  */
 public class EmpleadoServiceImpl implements EmpleadoService {
 
