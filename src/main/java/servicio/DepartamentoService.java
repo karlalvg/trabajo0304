@@ -10,7 +10,7 @@ import modelo.Empresa;
 
 /**
  *
- * @author Jose
+ * @author karlylvg
  */
 public interface DepartamentoService {
 
