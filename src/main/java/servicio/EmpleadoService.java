@@ -9,7 +9,7 @@ import modelo.Empleado;
 
 /**
  *
- * @author Jose
+ * @author karlylvg
  */
 public interface EmpleadoService {
 
