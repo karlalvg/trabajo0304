@@ -6,7 +6,7 @@ package vista;
 
 /**
  *
- * @author Jose
+ * @author karlylvg
  */
 public class Principal {
 
