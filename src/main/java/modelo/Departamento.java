@@ -8,7 +8,7 @@ import java.time.LocalDate;
 
 /**
  *
- * @author Jose
+ * @author karlylvg
  */
 public class Departamento {
 
