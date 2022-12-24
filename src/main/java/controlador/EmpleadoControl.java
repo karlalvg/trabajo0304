@@ -14,7 +14,7 @@ import servicio.DepartamentoServiceImpl;
 
 /**
  *
- * @author Jose
+ * @author karlylvg
  */
 public class EmpleadoControl {
 
