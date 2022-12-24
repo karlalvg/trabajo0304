@@ -11,7 +11,7 @@ import modelo.Empresa;
 
 /**
  *
- * @author Jose
+ * @author karlylvg
  */
 public class VentanaDepartamento extends javax.swing.JFrame {
 
