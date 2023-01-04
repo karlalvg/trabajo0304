@@ -402,7 +402,7 @@ public class VentanaDepartamento extends javax.swing.JFrame {
         // TODO add your handling code here:
         this.ActualizarTabla();
         /*
-        System.out.println("\n"+this.carreraControl.listar());*/
+        System.out.println("\n"+this.departamentoControl.listar());*/
 
 
     }//GEN-LAST:event_jButton2ActionPerformed
