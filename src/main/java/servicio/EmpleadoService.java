@@ -8,8 +8,7 @@ import java.util.List;
 import modelo.Empleado;
 
 /**
- *
- * @author karlylvg
+ *@author karlylvg
  */
 public interface EmpleadoService {
 
