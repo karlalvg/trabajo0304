@@ -79,7 +79,7 @@ public class EmpleadoControl {
         var horasSemanales = Integer.valueOf(data[3]).intValue();
         var costoHoras = Double.valueOf(data[4]).doubleValue();
         var numeroActividadesMes = Integer.valueOf(data[5]).intValue();
-        var carrera = this.departamentoServiceImpl.DepartamentoCodigo(Integer.valueOf(data[6]));
+        var departamento = this.departamentoServiceImpl.DepartamentoCodigo(Integer.valueOf(data[6]));
         var modalidad = data[7];
         var codigo = Integer.valueOf(data[8]).intValue();
         var modificar = Integer.valueOf(data[9]).intValue();
@@ -96,12 +96,12 @@ public class EmpleadoControl {
                     if (numeroActividadesMes < 0) {
                         retorno += " Las actividades debe ser mayor a 0 ";
                     } else {
-                        if (carrera == null) {
+                        if (departamento == null) {
                             retorno += " Universidad fuera del registro ";
                         } else {
                             var empleado = new Empleado(nombre, docente, 
                                     numHoras, horasSemanales, costoHoras, 
-                                    numeroActividadesMes, carrera, modalidad, codigo);
+                                    numeroActividadesMes, departamento, modalidad, codigo);
                             this.empleadoServiceImpl.modificar(empleado, modificar);
                             retorno = "Modificado Satisfactoriamente ";
 
