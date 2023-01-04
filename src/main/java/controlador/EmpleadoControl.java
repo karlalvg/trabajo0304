@@ -97,7 +97,7 @@ public class EmpleadoControl {
                         retorno += " Las actividades debe ser mayor a 0 ";
                     } else {
                         if (departamento == null) {
-                            retorno += " Universidad fuera del registro ";
+                            retorno += "Fuera del registro ";
                         } else {
                             var empleado = new Empleado(nombre, docente, 
                                     numHoras, horasSemanales, costoHoras, 
