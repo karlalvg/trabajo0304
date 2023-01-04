@@ -9,7 +9,6 @@ import modelo.Departamento;
 import modelo.Empresa;
 
 /**
- *
  * @author karlylvg
  */
 public interface DepartamentoService {
