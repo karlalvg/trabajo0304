@@ -10,8 +10,7 @@ import java.util.Set;
 import modelo.Empresa;
 
 /**
- *
- * @author karlylvg
+ *@author karlylvg
  */
 public class EmpresaServiceImpl implements EmpresaService {
 
