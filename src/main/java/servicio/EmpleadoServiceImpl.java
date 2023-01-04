@@ -9,8 +9,7 @@ import java.util.List;
 import modelo.Empleado;
 
 /**
- *
- * @author karlylvg
+ *@author karlylvg
  */
 public class EmpleadoServiceImpl implements EmpleadoService {
 
