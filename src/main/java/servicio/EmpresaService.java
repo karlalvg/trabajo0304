@@ -8,8 +8,7 @@ import java.util.List;
 import modelo.Empresa;
 
 /**
- *
- * @author karlylvg
+ *@author karlylvg 
  */
 public interface EmpresaService {
 
