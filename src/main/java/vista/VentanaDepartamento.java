@@ -10,8 +10,7 @@ import javax.swing.table.DefaultTableModel;
 import modelo.Empresa;
 
 /**
- *
- * @author karlylvg
+ *@author karlylvg
  */
 public class VentanaDepartamento extends javax.swing.JFrame {
 
