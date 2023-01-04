@@ -45,10 +45,10 @@ public class EmpresaControl {
                         if (ingresosMensuales < 0) {
                             retorno += " Es incorrecto ";
                         } else {
-                            var universidad = new Empresa(nombre, duenio, 
+                            var empresa = new Empresa(nombre, duenio, 
                                     LocalDate.of(year, mes, dia), numeroEmpleados, 
                                     ingresosMensuales, codigo);
-                            this.empresaServiceImpl.crear(universidad);
+                            this.empresaServiceImpl.crear(empresa);
                             retorno = "Creado correctamente ";
                         }
 
