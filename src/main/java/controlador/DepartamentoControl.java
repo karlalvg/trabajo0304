@@ -51,10 +51,10 @@ public class DepartamentoControl {
                             if (empresa == null) {
                                 retorno += " Empresa no registrada ";
                             } else {
-                                var carrera = new Departamento(nombre, 
+                                var departamento = new Departamento(nombre, 
                                 jefeDepartamental,sueldosDepar, numeroEmpleados, 
                                         LocalDate.of(year, mes, dia), empresa, codigo);
-                                this.departamentoServiceImpl.crear(carrera);
+                                this.departamentoServiceImpl.crear(departamento);
                                 retorno = "Creado Satisfactoriamente ";
 
                             }
