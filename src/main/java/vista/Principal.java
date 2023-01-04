@@ -11,13 +11,13 @@ package vista;
 public class Principal {
 
     public static void main(String[] args) {
-        var ventanaUniversidad = new VentanaEmpresa();
-        var ventanaCarrera = new VentanaDepartamento();
-        var ventanaAsignatura = new VentanaEmpleado();
-        ventanaUniversidad.setVisible(true);
+        var ventanaEmpresa = new VentanaEmpresa();
+        var ventanaDepartamento= new VentanaDepartamento();
+        var ventanaEmpleado = new VentanaEmpleado();
+        ventanaEmpresa.setVisible(true);
         
-        ventanaCarrera.setVisible(true);
-        ventanaAsignatura.setVisible(true);
+        ventanaDepartamento.setVisible(true);
+        ventanaEmpleado.setVisible(true);
 
     }
 
