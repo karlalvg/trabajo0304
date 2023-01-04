@@ -90,7 +90,7 @@ public class Departamento {
 
     
 
-    public double costoTotalCarrera() {
+    public double costoTotal() {
         return this.sueldo * this.numeroEmpleados;
     }
 
@@ -113,7 +113,7 @@ public class Departamento {
         return "Departamento{" + "nombre=" + nombre + ", jefe departamental=" + 
                 jefeDepartamento + ", sueldo=" + sueldo + ", numero empleados=" + 
                 numeroEmpleados + ", año de creacion=" + yearInaguracion + ", Costo total=" 
-                + this.costoTotalCarrera() + ", año del departamento=" + this.anioDepartamento() 
+                + this.costoTotal() + ", año del departamento=" + this.anioDepartamento() 
                 + "\n, empresa=" + empresa.getNombre() + '}';
     }
 }
