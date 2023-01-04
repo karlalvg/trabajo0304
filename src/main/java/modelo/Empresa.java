@@ -82,7 +82,7 @@ public class Empresa {
         return "Empresa{" + "nombre=" + nombre + ", duenio=" + duenio + 
                 ", anioCreacion=" + anioCreacion + ", numeroEmpleados=" + 
                 numeroEmpleados + ", ingresosMensuales=" + ingresosMensuales 
-                + ", codigo=" + codigo + ", años de Universidad=" 
+                + ", codigo=" + codigo + ", años de creacion=" 
                 + this.creacionEmpresa() + ", Ingresos por Matriculas=" + 
                 this.egresoSueldos() + '}';
     }
